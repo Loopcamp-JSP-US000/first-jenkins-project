@@ -31,11 +31,11 @@ test.describe('User Story01 @US-ID01', async () => {
     });
 
 
-    test('Test Case01', async ({ page }) => {
+    test('Test Case01',  { tag: "@smoke" }, async ({ page }) => {
         console.log("Test Case01 function is executed");
     });
 
-    test('Test Case02', async ({ page }) => {
+    test('Test Case02',  { tag: "@smoke" }, async ({ page }) => {
         console.log("Test Case02 function is executed");
     });
 
